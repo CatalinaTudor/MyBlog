@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>MyBlog Web Page</title>
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<div id="main">
+		<header>
+			<a name="link-to-top">
+				<div id="logo">
+					<span>SIMPLE</span>LIFE
+				</div>
+				<nav>
+					<ul>
+						<li><a class="page-ref" href="#projects">Projects</a></li>
+						<li><a class="page-ref" href="#facts">Facts</a></li>
+						<li><a class="page-ref" href="#posts">Posts</a></li>
+						<li><a class="page-ref" href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</a>
+		</header>
+		<section class="subject text-sbj">
+			<div class="sect-cnt">
+				<p>
+					Hello, this is Simple Life blog.<br />
+					A simple and clean template for sharing your ideas.
+				</p>
+			</div>
+		</section>
+		<section class="subject proj-sbj">
+			<a name="projects">
+				<h2>Recent Projects</h2>
+				<div class="sect-cnt">
+					<ul>
+						<li><a href=""><img src="images/img-1.jpg" alt="beautiful house" /></a></li>
+						<li><a href=""><img src="images/img-2.jpg" alt="three white flowers" /></a></li>
+						<li><a href=""><img src="images/img-3.jpg" alt="green moutain grass" /></a></li>
+						<li><a href=""><img src="images/img-4.jpg" alt="mushroom" /></a></li>
+						<li><a href=""><img src="images/img-5.jpg" alt="purple flower" /></a></li>
+					</ul>
+				</div>
+			</a>
+			<a href="#link-to-top" class="page-ref"></a>
+		</section>
+		<section class="subject fact-sbj">
+				<a name="facts"><h2>Cool Facts</h2></a>
+				<div class="sect-cnt">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit.<a href="" class="read">read more...</a>
+						<span> Maecenas gravida, nisi at vehicula blandit, dui nunc dignissim lorem, non fringilla ante lorem at est. Nullam egestas dui et velit venenatis, ac condimentum lectus euismod. Suspendisse sit amet venenatis leo, eget laoreet neque. Sed eleifend pharetra arcu non pretium.</span>
+					</p>
+					<p>
+						Pellentesque lectus quam, lobortis vitae eros, efficitur porttitor felis.<a href="" class="read">read more...</a>
+						<span>Cras est sapien, ornare sed fringilla efficitur, fringilla sed mi. Cras convallis hendrerit odio, eu venenatis augue consectetur nec.</span>
+					</p>
+					<p>
+						Vestibulum quam.<a href="" class="read">read more...</a>
+						<span>Suspendisse potenti. Etiam consectetur erat vitae dolor aliquam convallis. Fusce quis vestibulum odio.</span>
+					</p>
+					<p>
+						Lorem ipsum dolor,consectetur adipiscing.<a href="" class="read">read more...</a>
+						<span>Etiam scelerisque felis vel massa elementum rutrum. Nam vitae metus at elit porta laoreet. Donec pretium malesuada massa, id convallis arcu sollicitudin quis. Maecenas gravida, nisi at vehicula blandit, dui nunc dignissim lorem, non fringilla ante lorem at est. Nullam egestas dui et velit venenatis, ac condimentum lectus euismod. Suspendisse sit amet venenatis leo, eget laoreet neque.</span>
+					</p>
+				</div>
+				<a href="#link-to-top" class="page-ref"></a>
+		</section>
+		<section class="subject post-sbj">
+			<a name="posts">
+				<h2>New Posts</h2>
+				<div class="sect-cnt">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sollicitudin vulputate leo ut mattis.<span>6/12</span></p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque lectus quam, lobortis vitae eros et, efficitur porttitor felis.<span>9/13</span></p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum quam.<span>7/12</span></p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<span>4/3</span></p>
+				</div>
+			</a>
+			<a href="#link-to-top" class="page-ref"></a>
+		</section>
+		<section class="subject contact-sbj">
+			<a name="contact"></a>
+			<h2>Contact</h2>
+			<div class="sect-cnt">
+				<form action="#" method="post">
+					<input type="text" id="name" placeholder="Enter your full name" required />
+					<input pattern="^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$" id="email" placeholder="Enter your email adress" required />
+					<textarea id="message" placeholder="Enter your message here" cols="30" rows="5"></textarea>
+					<input type="submit" id="mes-btn" value="Send message" />
+				</form>
+			</div>
+			<a href="#link-to-top" class="page-ref"></a>
+		</section>
+	</div>
+	<script src="jquery-1.11.1.min.js"></script>
+	<script src="animated-link.js"></script>
+</body>
+</html>
